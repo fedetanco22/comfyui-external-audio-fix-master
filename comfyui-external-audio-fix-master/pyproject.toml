@@ -1,0 +1,9 @@
+[project]
+name = "comfyui-external-audio-fix"
+description = "Fixed ComfyDeploy ExternalAudio node with robust multi-backend audio loading"
+version = "1.0.0"
+license = { text = "MIT" }
+dependencies = ["requests", "soundfile"]
+
+[project.urls]
+Repository = "https://github.com/PauldeLavallaz/comfyui-external-audio-fix"
